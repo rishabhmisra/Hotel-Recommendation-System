@@ -1,5 +1,3 @@
 # Hotel-Recommendation-System
 
 In this project, we explore Expedia's online hotel booking dataset to recommend hotels to users based on their preferences. The dataset was made available by Expedia as a Kaggle challenge. In this project, our aim is to contextualize customer data and predict the likelihood a user will stay at 100 different hotel groups. The goal is to provide not just one recommendation but to rank the predictions and return the top five most likely hotel clusters for each user’s particular search query in the test set. We use multiple models and techniques to arrive at our best solution. This includes (1) An ensemble of four different models (random forests, SGD classifier, XG Boost and Naive Bayes), (2) XG Boost that is preceded by completion of distance (between user and their potential destination) matrix - an important feature in the dataset which is currently incomplete, (3) Data leakage solution which takes advantage of the fact that there is a potential leak in the data provided to us, and (4) a mixture of the methods in (1) and (3).
-
-Implementation would be up soon.
